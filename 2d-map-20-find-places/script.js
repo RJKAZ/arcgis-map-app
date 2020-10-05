@@ -46,7 +46,7 @@ require([
    })
    .then(function(results){
      view.popup.close();
-     view.graphics.removeALL();
+     view.graphics.removeAll();
      results.forEach(function(result){
        view.graphics.add(
          new Graphic({
